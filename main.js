@@ -1,5 +1,5 @@
 const botonConfirmar = document.querySelector(".boton-confirmar")
-
+const botonResetear = document.querySelector(".boton-resetear")
 botonConfirmar.onclick = function () {
     let respuestaEntrada;
     const nombreUsuario = document.querySelector(".nombre-usuario").value
@@ -17,7 +17,12 @@ botonConfirmar.onclick = function () {
     return false
 }
 
+botonResetear.onclick = function(){
+     nombreUsuario = document.querySelector(".nombre-usuario").value = ""
+     edadUsuario = document.querySelector(".edad-usuario").value = ""
+    respuestaEntrada = document.querySelector(".respuesta-entrada").innerText ="Hola, cómo te llamas y cuántos años tenés?"
+}
 /*botón resetear
- cambia el .respuesta entrada a vacio
+ cambia los inputs  a vacio
 */
 
