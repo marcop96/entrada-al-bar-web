@@ -22,7 +22,5 @@ botonResetear.onclick = function(){
      edadUsuario = document.querySelector(".edad-usuario").value = ""
     respuestaEntrada = document.querySelector(".respuesta-entrada").innerText ="Hola, cómo te llamas y cuántos años tenés?"
 }
-/*botón resetear
- cambia los inputs  a vacio
-*/
+
 
