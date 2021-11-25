@@ -17,10 +17,10 @@ botonConfirmar.onclick = function () {
     return false
 }
 
-botonResetear.onclick = function(){
-     nombreUsuario = document.querySelector(".nombre-usuario").value = ""
-     edadUsuario = document.querySelector(".edad-usuario").value = ""
-    respuestaEntrada = document.querySelector(".respuesta-entrada").innerText ="Hola, cómo te llamas y cuántos años tenés?"
+botonResetear.onclick = function () {
+    nombreUsuario = document.querySelector(".nombre-usuario").value = ""
+    edadUsuario = document.querySelector(".edad-usuario").value = ""
+    respuestaEntrada = document.querySelector(".respuesta-entrada").innerText = "Hola, cómo te llamas y cuántos años tenés?"
 }
 
 
